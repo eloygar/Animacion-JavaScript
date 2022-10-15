@@ -18,4 +18,4 @@ para darle algo de estilo .
 ---
 # Aqui puedes ver la animacion
 
-[Pulsa](https://eloygar.github.io/Animacion-JavaScript/)
+[Pulsa aquí para ver la Animación](https://eloygar.github.io/Animacion-JavaScript/)
