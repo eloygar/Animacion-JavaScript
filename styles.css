@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'SEGA LOGO FONT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SEGA LOGO FONT'), url('font/SEGA.woff') format('woff');
+}
+
+body {
+    position: absolute;
+    text-align: center;
+    left: 25%;
+    right: 25%;
+    top: 20%;
+    background: #242026;
+
+
+}
+
+h1 {
+    filter: drop-shadow(4px 1px 0 white);
+    width: 150px;
+    margin-inline: 39%;
+    letter-spacing: 5px;
+    font-family: 'SEGA LOGO FONT';
+    color: rgb(53, 14, 245);
+}
+
+
+canvas {
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(53, 14, 245, 0.7);
+}
+
+button {
+    font-family: 'SEGA LOGO FONT';
+    color: blue;
+    margin-inline: 15px;
+    text-transform: uppercase;
+    transition: .5s;
+    letter-spacing: 4px;
+    border-radius: 10px;
+    width: 100px;
+    border: 2px solid rgba(53, 14, 245, 0.7);
+}
+
+button:hover {
+    background-color: rgba(53, 14, 245, 0.7);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white;
+}
